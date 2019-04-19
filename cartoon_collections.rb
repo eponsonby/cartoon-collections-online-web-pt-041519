@@ -20,3 +20,5 @@ def find_the_cheese(array_of_strings)
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+snacks = ["crackers", "gouda", "thyme"]
+
