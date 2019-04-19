@@ -16,7 +16,7 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array_of_strings.detect {|i| i.include?
+  array_of_strings.detect {|item| cheese_types.include?(item)}
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
